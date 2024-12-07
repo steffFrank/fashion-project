@@ -1,0 +1,2 @@
+# fashion-project
+Typescript project
