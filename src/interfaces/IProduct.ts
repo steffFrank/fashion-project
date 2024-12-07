@@ -1,3 +1,4 @@
+import { UUIDTypes } from "uuid";
 import { IClient } from "./IClient";
 
 export enum ProductType {
@@ -36,11 +37,13 @@ export enum ProductGender {
 }
 
 export interface IProduct {
-  id: string;
+  id: UUIDTypes;
   type: ProductType; 
   size: ProductSize; 
-  color: ProductColor; 
-  state: ProductState; 
+  color: ProductColor;
   gender: ProductGender; 
+  getState: () => ProductState;
+  setState: (newState: ProductState) => void;
   assignClient: (client: IClient) => void; 
+  displayDetails: () => string;
 }
