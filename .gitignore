@@ -1,2 +1,47 @@
-/node_modules
-/dist
+# Ignore node_modules folder
+node_modules/
+
+# Ignore build output (compiled JavaScript and type definitions)
+dist/
+
+# Ignore TypeScript declaration files if not manually written
+*.d.ts
+
+# Ignore environment variables
+.env
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+
+# Ignore package-lock.json or yarn.lock if you use the other package manager
+# Uncomment based on the package manager you're using
+# yarn.lock
+# package-lock.json
+
+# Ignore any compiled JavaScript backup files
+*.js.map
+*.ts.map
+*.js.bak
+*.ts.bak
+
+# Ignore testing coverage output
+coverage/
+
+# Ignore Jest cache
+.jest/
+
+# Ignore TypeScript build cache
+*.tsbuildinfo
