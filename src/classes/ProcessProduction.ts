@@ -33,7 +33,7 @@ export class ProcessProduction implements IprocessProduct {
   }
 
   // Method to remove a product from the production list by ID
-  public removeProduct(productId: string): void {
+  public removeProduct(productId: UUIDTypes): void {
     const index = this.productsInProduction.findIndex((p) => p.id === productId);
 
     if (index === -1) {
