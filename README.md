@@ -37,17 +37,3 @@ npm install
 npm run build
 npm start
 
-
-sunnee-beachwear-model/
-│
-├── src/               # Codice sorgente
-│   ├── IProduct.ts    # Interfaccia per prodotti
-│   ├── IClient.ts     # Interfaccia per clienti
-│   ├── IProcessoProduzione.ts # Interfaccia per processi
-│   └── main.ts        # File principale
-│
-├── dist/              # File compilati (generati dopo `npm run build`)
-│
-├── package.json       # Configurazione del progetto
-├── tsconfig.json      # Configurazione TypeScript
-└── README.md          # Documentazione
