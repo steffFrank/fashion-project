@@ -16,7 +16,8 @@ export class Client implements IClient {
 	validateEmail(email);
 
 	console.log(
-	  `Creazione utente riuscita:\nNome: ${this.getFullName()}\nEmail: ${this.email}\n`
+	  `Creazione utente riuscita:\nNome: 
+	  ${this.getFullName()}\nEmail: ${this.email}\n`
 	);
   }
 

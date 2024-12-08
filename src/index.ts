@@ -56,10 +56,8 @@ client1.orderProduct(products[0]); // Success
 client2.orderProduct(product2); // Success
 client2.orderProduct(products[1]); // Success
 
-console.log("\nProdotti ordinati da Mario Rossi:");
-client1.displayOrderedProducts();
 
-console.log("\nProdotti ordinati da Luigi Bianchi:");
+client1.displayOrderedProducts();
 client2.displayOrderedProducts();
 
 // Step 5: Visualizazzione prodotti
